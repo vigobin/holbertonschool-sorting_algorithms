@@ -2,7 +2,7 @@
 
 /**
  * insertion_sort_list - sorts a doubly linked list of integers in ascending
- * 	order using the Insertion sort algorithm.
+ *  order using the Insertion sort algorithm.
  * @list: doulbly linked list.
  */
 
