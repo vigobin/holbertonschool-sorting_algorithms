@@ -11,7 +11,7 @@ void insertion_sort_list(listint_t **list)
 	listint_t *temp = NULL;
 	listint_t *marker = NULL;
 
-	if (!(*list)->next || !list || !(*list))
+	if ((*list)->next == NULL || !list || !(*list))
 		return;
 
 	temp = *list;
